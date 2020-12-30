@@ -1,0 +1,8 @@
+rocketmq:
+  name-server: 192.168.1.30:9876
+  producer:
+    group: test-2
+
+
+  consumer:
+    group: test-2

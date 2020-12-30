@@ -1,0 +1,26 @@
+spring:
+  redis:
+    # Redis Standalone
+    host: 192.168.1.30
+    password: yoostar403
+    port: 6379
+
+    # Redis Sentinel
+    #    sentinel:
+    #      nodes: 192.168.1.30:26370,192.168.1.30:26371,192.168.1.30:26372
+    #      master: mymaster
+
+    # Redis Cluster
+    #    cluster:
+    ##      nodes: 192.168.1.30:6380,192.168.1.30:6381,192.168.1.30:6382,192.168.1.30:6383,192.168.1.30:6384,192.168.1.30:6385
+    #      max-redirects: 3
+    #      nodes: 192.168.1.30:7777
+
+    # 连接池配置
+    lettuce:
+      pool:
+        max-active: 100
+        max-idle: 10000
+        max-wait: 100
+
+
