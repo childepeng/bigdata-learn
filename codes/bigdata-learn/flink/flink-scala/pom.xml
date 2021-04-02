@@ -45,11 +45,11 @@
             <version>1.2.75</version>
         </dependency>
 
-        <dependency>
-            <groupId>com.yoostar.dw</groupId>
-            <artifactId>data-collector-api</artifactId>
-            <version>1.0</version>
-        </dependency>
+        <!--<dependency>-->
+        <!--    <groupId>com.yoostar.dw</groupId>-->
+        <!--    <artifactId>data-collector-api</artifactId>-->
+        <!--    <version>1.0</version>-->
+        <!--</dependency>-->
 
     </dependencies>
 
